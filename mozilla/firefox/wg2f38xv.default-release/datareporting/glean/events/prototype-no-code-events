@@ -1,0 +1,5 @@
+{"timestamp":9326091,"category":"browser.usage","name":"interaction","extra":{"flow_id":"{3a8f5af2-7696-46c3-923e-8364dc4227f1}","glean_timestamp":"1721806515152","widget_id":"urlbar-input","source":"nav-bar"},"execution_counter":60}
+{"timestamp":9502698,"category":"browser.usage","name":"interaction","extra":{"flow_id":"{3a8f5af2-7696-46c3-923e-8364dc4227f1}","widget_id":"addon0","glean_timestamp":"1721806691759","source":"keyboard"},"execution_counter":60}
+{"timestamp":9596107,"category":"browser.usage","name":"interaction","extra":{"widget_id":"addon0","flow_id":"{3a8f5af2-7696-46c3-923e-8364dc4227f1}","glean_timestamp":"1721806785168","source":"keyboard"},"execution_counter":60}
+{"timestamp":9609762,"category":"browser.usage","name":"interaction","extra":{"glean_timestamp":"1721806798823","widget_id":"addon0","source":"keyboard","flow_id":"{3a8f5af2-7696-46c3-923e-8364dc4227f1}"},"execution_counter":60}
+{"timestamp":9793857,"category":"browser.usage","name":"interaction","extra":{"flow_id":"{3a8f5af2-7696-46c3-923e-8364dc4227f1}","source":"keyboard","glean_timestamp":"1721806982918","widget_id":"addon0"},"execution_counter":60}

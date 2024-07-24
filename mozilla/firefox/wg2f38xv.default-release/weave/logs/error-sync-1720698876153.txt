@@ -1,0 +1,81 @@
+1720698148688	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1720698152118	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1720698157148	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1720698157150	Sync.Engine.Tabs	INFO	Posting 1 records of 1515 bytes with batch=true
+1720698157151	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1720698157152	Sync.Collection	DEBUG	POST Length: 1515
+1720698157360	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/209877300/storage/tabs?batch=true&commit=true
+1720698157365	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1720698272938	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1720698272939	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1720698272941	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1720698272943	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1720698305057	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1720698310075	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1720698310077	Sync.Engine.Tabs	INFO	Posting 1 records of 1515 bytes with batch=true
+1720698310078	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1720698310078	FirefoxAccounts	DEBUG	getOAuthToken enter
+1720698310079	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1720698310079	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1720698310080	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1720698310081	Sync.Collection	DEBUG	POST Length: 1515
+1720698310082	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1720698310083	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]"}
+1720698310083	Sync.Collection	WARN	POST request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/209877300/storage/tabs?batch=true&commit=true failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1720698310084	Sync.Engine.Tabs	WARN	quicksync sync failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1720698506302	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1720698506304	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1720698506312	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1720698506323	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1720698511348	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1720698511350	Sync.Engine.Tabs	INFO	Posting 1 records of 1643 bytes with batch=true
+1720698511351	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1720698511351	FirefoxAccounts	DEBUG	getOAuthToken enter
+1720698511352	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1720698511352	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1720698511352	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1720698511353	Sync.Collection	DEBUG	POST Length: 1643
+1720698511353	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1720698511353	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]"}
+1720698511354	Sync.Collection	WARN	POST request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/209877300/storage/tabs?batch=true&commit=true failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1720698511354	Sync.Engine.Tabs	WARN	quicksync sync failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1720698513605	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1720698513608	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1720698518618	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1720698518620	Sync.Engine.Tabs	INFO	Posting 1 records of 1515 bytes with batch=true
+1720698518620	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1720698518621	Sync.Collection	DEBUG	POST Length: 1515
+1720698518623	Sync.Collection	WARN	POST request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/209877300/storage/tabs?batch=true&commit=true failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1720698518623	Sync.Engine.Tabs	WARN	quicksync sync failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1720698524042	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1720698524055	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1720698524986	Sync.RemoteTabs	INFO	Generating tab list with filter
+1720698524993	Sync.RemoteTabs	DEBUG	Processing client: {"id":"Ncc3vgT_pY5L","type":"client","name":"yaq’s Firefox on yaq-82ju","clientType":"desktop","lastModified":1720162806730,"tabs":[]}
+1720698524994	Sync.RemoteTabs	DEBUG	Processing client: {"id":"ih6SFeE3lMov","type":"client","name":"yaqub’s Firefox Developer Edition on yaq","clientType":"desktop","lastModified":1720697994150,"tabs":[]}
+1720698524994	Sync.RemoteTabs	DEBUG	Processing client: {"id":"wyCXsTL39yWi","type":"client","name":"yaq’s Firefox on yaq-b660mprors","clientType":"desktop","lastModified":1720327299680,"tabs":[]}
+1720698524994	Sync.RemoteTabs	INFO	Final tab list has 3 clients with 7 tabs.
+1720698525817	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1720698529061	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1720698529064	Sync.Engine.Tabs	INFO	Posting 1 records of 1643 bytes with batch=true
+1720698529064	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1720698529066	Sync.Collection	DEBUG	POST Length: 1643
+1720698529069	Sync.Collection	WARN	POST request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/209877300/storage/tabs?batch=true&commit=true failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1720698529069	Sync.Engine.Tabs	WARN	quicksync sync failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1720698876139	Sync.Service	DEBUG	User-Agent: Firefox/127.0.2 (Linux x86_64) FxSync/1.129.0.20240625011508.desktop
+1720698876139	Sync.Service	INFO	Starting sync at 2024-07-11 19:54:36 in browser session NMkyEmeNReGU
+1720698876139	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1720698876144	Sync.Status	INFO	Resetting Status.
+1720698876144	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1720698876145	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1720698876145	FirefoxAccounts	DEBUG	getOAuthToken enter
+1720698876145	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1720698876145	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1720698876146	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1720698876148	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1720698876149	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]"}
+1720698876149	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/209877300/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1720698876149	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1720698876149	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1720698876149	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1720698876150	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1720698876152	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
